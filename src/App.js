@@ -24,10 +24,12 @@ function App() {
       });
   }, [date]);
 
+  const visitItem = item => setDate(item);
+
   return (
     <div className="App">
       <Header mainHeader="NASA Photo of the Day 🚀" />
-      <Dropdown items={items} setDate={setDate} />
+      <Dropdown visitItem={visitItem} items={items} />
       <Card description="Description" data={data} />
     </div>
   );
