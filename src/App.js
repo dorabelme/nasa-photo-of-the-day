@@ -23,7 +23,7 @@ const HeaderDiv = styled.div`
 
 function App() {
   const [data, setData] = useState({});
-  const items = ["2019-07-17", "2019-07-16", "2019-07-15", "2019-07-14", "2019-07-13", "2019-07-12"];
+  const items = ["2019-07-18", "2019-07-17", "2019-07-16", "2019-07-15", "2019-07-14", "2019-07-13", "2019-07-12"];
   const [date, setDate] = useState("2019-07-18");
 
   useEffect(() => {
@@ -48,7 +48,7 @@ function App() {
       </HeaderDiv>
       {/* <Dropdown visitItem={visitItem} items={items} /> */}
       <NasaDropdown items={items} visitItem={visitItem} />
-      <Card description="Description" data={data} />
+      {data ? <Card description="Description" data={data} /> : <div>Loading...</div>}
     </AppDiv>
   );
 };

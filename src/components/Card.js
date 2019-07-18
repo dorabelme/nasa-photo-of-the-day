@@ -1,5 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
+import ButtonExampleLabeledBasic from "./ButtonLabel";
 
 
 const CardContent = styled.div`
@@ -15,23 +16,32 @@ const CardContent = styled.div`
 const TextP = styled.p`
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 18px;
+    margin-bottom: 4rem;
 `;
 
+const Title = styled.h2`
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.8rem;
+`;
 
+const DateP = styled.p`
+  font-family: 'Russo One', sans-serif;
+`;
 
 function Card(props) {
     const data = props.data;
     return (
         <CardContent>
-            <h2>{data.title}</h2>
-            <p>{data.date}</p>
+            <Title>{data.title}</Title>
+            <DateP>{data.date}</DateP>
             {props.data.media_type === "video" ? <iframe width="420" height="315"
                 src={data.url} alt="NASA photo of the day">
             </iframe> : <img width="420" height="315"
                 src={data.url} alt="NASA photo of the day">
                 </img>}
-            <h2>{props.description}</h2>
+            <Title>{props.description}</Title>
             <TextP>{data.explanation}</TextP>
+            <ButtonExampleLabeledBasic />
         </CardContent>
     );
 };
