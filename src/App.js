@@ -2,9 +2,23 @@ import React, {useState, useEffect} from "react";
 import "./App.css";
 import Card from "./components/Card";
 import Header from "./components/Header";
-import Dropdown from "./components/Dropdown";
+// import Dropdown from "./components/Dropdown";
 import NasaDropdown from "./components/NasaDropdown";
 import axios from "axios";
+import styled from 'styled-components';
+
+const AppDiv = styled.div`
+    text-align: center;
+    margin: 4rem;
+    border-radius: 20px;
+    padding: 20px;
+`;
+const HeaderDiv = styled.div`
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    
+`;
+
 
 
 function App() {
@@ -28,12 +42,14 @@ function App() {
   const visitItem = item => setDate(item);
 
   return (
-    <div className="App">
-      <Header mainHeader="NASA Photo of the Day 🚀" />
+    <AppDiv>
+      <HeaderDiv>
+        <Header mainHeader="NASA Photo of the Day 🚀" />
+      </HeaderDiv>
       {/* <Dropdown visitItem={visitItem} items={items} /> */}
       <NasaDropdown items={items} visitItem={visitItem} />
       <Card description="Description" data={data} />
-    </div>
+    </AppDiv>
   );
 };
 

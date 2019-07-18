@@ -18,7 +18,7 @@ const NasaDropdown = (props) => {
     });
     
     return (
-        <Dropdown placeholder='Date' selection options={items} onChange={onChange} />
+        <Dropdown className="dropdownText" placeholder='Date' selection options={items} onChange={onChange} />
     );
 };
 
