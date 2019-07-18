@@ -3,13 +3,14 @@ import "./App.css";
 import Card from "./components/Card";
 import Header from "./components/Header";
 import Dropdown from "./components/Dropdown";
+import NasaDropdown from "./components/NasaDropdown";
 import axios from "axios";
 
 
 function App() {
   const [data, setData] = useState({});
-  const items = ["2019-07-16", "2019-07-15", "2019-07-14", "2019-07-13", "2019-07-12"];
-  const [date, setDate] = useState("2019-07-17");
+  const items = ["2019-07-17", "2019-07-16", "2019-07-15", "2019-07-14", "2019-07-13", "2019-07-12"];
+  const [date, setDate] = useState("2019-07-18");
 
   useEffect(() => {
     console.log("use effect");
@@ -29,7 +30,8 @@ function App() {
   return (
     <div className="App">
       <Header mainHeader="NASA Photo of the Day 🚀" />
-      <Dropdown visitItem={visitItem} items={items} />
+      {/* <Dropdown visitItem={visitItem} items={items} /> */}
+      <NasaDropdown items={items} visitItem={visitItem} />
       <Card description="Description" data={data} />
     </div>
   );
