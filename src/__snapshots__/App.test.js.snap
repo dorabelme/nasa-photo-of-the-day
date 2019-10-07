@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match snapshot 1`] = `
+<div
+  className="sc-EHOje cLYZdr"
+>
+  <div
+    className="sc-bZQynM ibzHum"
+  >
+    <div>
+      <h1
+        className="mainHeader sc-ifAKCX hIgNvO"
+      >
+         Photo of the Day 🚀
+      </h1>
+    </div>
+  </div>
+  <div
+    aria-expanded={false}
+    className="ui selection dropdown dropdownText"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseDown={[Function]}
+    role="listbox"
+    tabIndex={0}
+  >
+    <div
+      aria-atomic={true}
+      aria-live="polite"
+      className="default text"
+      role="alert"
+    >
+      Date
+    </div>
+    <i
+      aria-hidden="true"
+      className="dropdown icon"
+      onClick={[Function]}
+    />
+    <div
+      className="menu transition"
+    >
+      <div
+        aria-checked={false}
+        aria-selected={true}
+        className="selected item"
+        onClick={[Function]}
+        role="option"
+        style={
+          Object {
+            "pointerEvents": "all",
+          }
+        }
+      >
+        <span
+          className="text"
+        >
+          2019-07-18
+        </span>
+      </div>
+      <div
+        aria-checked={false}
+        aria-selected={false}
+        className="item"
+        onClick={[Function]}
+        role="option"
+        style={
+          Object {
+            "pointerEvents": "all",
+          }
+        }
+      >
+        <span
+          className="text"
+        >
+          2019-07-17
+        </span>
+      </div>
+      <div
+        aria-checked={false}
+        aria-selected={false}
+        className="item"
+        onClick={[Function]}
+        role="option"
+        style={
+          Object {
+            "pointerEvents": "all",
+          }
+        }
+      >
+        <span
+          className="text"
+        >
+          2019-07-16
+        </span>
+      </div>
+      <div
+        aria-checked={false}
+        aria-selected={false}
+        className="item"
+        onClick={[Function]}
+        role="option"
+        style={
+          Object {
+            "pointerEvents": "all",
+          }
+        }
+      >
+        <span
+          className="text"
+        >
+          2019-07-15
+        </span>
+      </div>
+      <div
+        aria-checked={false}
+        aria-selected={false}
+        className="item"
+        onClick={[Function]}
+        role="option"
+        style={
+          Object {
+            "pointerEvents": "all",
+          }
+        }
+      >
+        <span
+          className="text"
+        >
+          2019-07-14
+        </span>
+      </div>
+      <div
+        aria-checked={false}
+        aria-selected={false}
+        className="item"
+        onClick={[Function]}
+        role="option"
+        style={
+          Object {
+            "pointerEvents": "all",
+          }
+        }
+      >
+        <span
+          className="text"
+        >
+          2019-07-13
+        </span>
+      </div>
+      <div
+        aria-checked={false}
+        aria-selected={false}
+        className="item"
+        onClick={[Function]}
+        role="option"
+        style={
+          Object {
+            "pointerEvents": "all",
+          }
+        }
+      >
+        <span
+          className="text"
+        >
+          2019-07-12
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-bdVaJa fkbwjo"
+  >
+    <h2
+      className="sc-htpNat bHSmkj"
+    />
+    <p
+      className="sc-bxivhb hmDaEb"
+    />
+    <img
+      alt="NASA photo of the day"
+      height="315"
+      width="420"
+    />
+    <h2
+      className="sc-htpNat bHSmkj"
+    >
+      Description
+    </h2>
+    <p
+      className="sc-bwzfXH hkbdGL"
+    />
+    <div>
+      <div
+        className="ui right labeled button"
+        onClick={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <button
+          className="ui red button"
+          onClick={[Function]}
+        >
+          <i
+            aria-hidden="true"
+            className="heart icon"
+            onClick={[Function]}
+          />
+          Like
+        </button>
+        <a
+          className="ui red left pointing basic label"
+          onClick={[Function]}
+        >
+          2,048
+        </a>
+      </div>
+      <div
+        className="ui right labeled button"
+        onClick={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <button
+          className="ui blue basic button"
+          onClick={[Function]}
+        >
+          <i
+            aria-hidden="true"
+            className="fork icon"
+            onClick={[Function]}
+          />
+          Fork
+        </button>
+        <a
+          className="ui blue left pointing basic label"
+          onClick={[Function]}
+        >
+          2,048
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

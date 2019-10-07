@@ -1,31 +1,37 @@
 @import url("https://fonts.googleapis.com/css?family=Russo+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Darker+Grotesque|Russo+One&display=swap");
 
-.App {
-  text-align: center;
+
+/* p {
+  font-family: 'Russo One', sans-serif;
+} */
+
+.dropdownText{
+  font-size: 15px;
 }
 
-.cardContent{
+/* .App {
+  text-align: center;
+} */
+
+/* .cardContent{
   width: 1000px;
   background: #FFFFFF;
   box-shadow: 1rem 1rem 5rem rgba(30, 49, 78, 0.14);
   margin: 3rem auto;
   padding: 3rem 2rem;
   min-height: 16.5rem;
-}
-.mainHeader{
+} */
+/* .mainHeader{
   margin-top: 5rem;
-}
+} */
 
-h1,h2, p {
-  font-family: 'Russo One', sans-serif;
-}
-
-.text {
+/* .text {
   font-family: 'Darker Grotesque', sans-serif;
-}
+  font-size: 18px;
+} */
 
-.button {
+/* .button {
   width: 9rem;
   background: #FFFFFF;
   box-shadow: 1rem 1rem 5rem rgba(30, 49, 78, 0.14);
@@ -33,4 +39,4 @@ h1,h2, p {
   font-family: 'Russo One', sans-serif;
   font-size: 0.7rem;
   margin-left: 1rem;
-}
+} */
